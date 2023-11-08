@@ -1,7 +1,9 @@
 //Set current year
 
 const copyrightYear = document.querySelector("#copyrightYear");
+console.log(copyrightYear);
 const year = new Date().getFullYear();
+console.log(year);
 copyrightYear.textContent = year;
 
 //Make mobile nav work
